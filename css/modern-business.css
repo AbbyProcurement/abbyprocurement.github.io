@@ -26,7 +26,7 @@ body {
 /* Home Page Carousel */
 
 header.carousel {
-    height: 50%;
+    height: 60%;
 }
 
 header.carousel .item,
@@ -56,6 +56,8 @@ header.carousel .fill {
     line-height: 50px;
 }
 
+.initiallyHidden { display: none; }
+
 .price sup {
     top: -20px;
     left: 2px;
@@ -72,6 +74,7 @@ header.carousel .fill {
 footer {
     margin: 50px 0;
 }
+
 
 /* Responsive Styles */
 

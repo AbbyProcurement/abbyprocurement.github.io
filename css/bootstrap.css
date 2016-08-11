@@ -1465,6 +1465,11 @@ dd {
   .dl-horizontal dd {
     margin-left: 180px;
   }
+	
+  .resize {
+   max-width:50%;
+   max-height:50%;
+	}
 }
 abbr[title],
 abbr[data-original-title] {
@@ -5461,6 +5466,12 @@ button.list-group-item-danger.active:focus {
 .panel-body {
   padding: 15px;
 }
+
+.special{
+	padding: 0px;
+	margin: 0px;
+}
+
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
@@ -6460,6 +6471,8 @@ button.close {
   .carousel-indicators {
     bottom: 20px;
   }
+	
+	
 }
 .clearfix:before,
 .clearfix:after,
